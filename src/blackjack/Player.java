@@ -7,17 +7,17 @@ public class Player {
     ArrayList<Card> hand;
 
     
-    // player constructor
+    
     public Player() {
         hand = new ArrayList<Card>();
     }
 
-    //gives random card 
+    
     public void addCard(Card card) {
         hand.add(card);
     }
 
-    // returns total value 
+    // gives total value 
     public int totalValue() {
         int total = 0;
         int total2 = 0;

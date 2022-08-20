@@ -7,10 +7,10 @@ public class Main {
         System.out.println("Welcome to Blackjack!");
         System.out.println();
 
-        // Initialize player
+        
         Player player = new Player();
 
-        // Initialize dealer
+        
         Dealer dealer = new Dealer();
 
         ArrayList<Card> deck = new ArrayList<Card>();

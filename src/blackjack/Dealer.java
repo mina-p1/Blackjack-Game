@@ -66,7 +66,7 @@ public class Dealer {
             } 
         }
     } 
-
+    // the dealer's logic
     public boolean decision() {
 
         double hitValue;
